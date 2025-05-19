@@ -1,5 +1,11 @@
 const blogsData = [
     {
+        title: "Building a Simple Contact Manager API with ASP.NET Core & EF Core",
+        date: "May 19, 2025",
+        description: "A practical walkthrough of building a lightweight contact management API using ASP.NET Core and Entity Framework Core. This beginner-friendly guide covers CRUD operations, project setup, and essential backend concepts using a modular architecture.",
+        link: "https://nirob-barman.medium.com/building-a-simple-contact-manager-api-with-asp-net-core-ef-core-f3bf195ccb66"
+    },
+    {
         title: "Simple Task Management System Using ASP.NET MVC (For Beginners)",
         date: "May 4, 2025",
         description: "A beginner-friendly guide to building a simple task management system using ASP.NET MVC, including step-by-step instructions.",
