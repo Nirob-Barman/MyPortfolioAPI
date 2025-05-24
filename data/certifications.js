@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: 'Boost your Web Development Career: Introduction to C#',
+        organization: 'Simplilearn',
+        date: 'May 2025',
+        link: 'https://simpli-web.app.link/e/EemMaQUoDTb',
+        // image: 'https://drive.google.com/uc?export=view&id=1_E6ztHQv5TXNsB6XHC9WlinevQna15do'
+    },
+    {
         title: 'Introduction to C#',
         organization: 'Sololearn',
         date: 'April 2025',
