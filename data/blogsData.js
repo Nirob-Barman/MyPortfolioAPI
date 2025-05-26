@@ -1,5 +1,11 @@
 const blogsData = [
     {
+        title: "How JWT (JSON Web Tokens) Work — Simply Explained",
+        date: "May 25, 2025",
+        description: "A simple guide to how JWTs work, including their structure, how they help with login, and why they are secure.",
+        link: "https://medium.com/@nirob-barman/how-jwt-json-web-tokens-work-simply-explained-ed0a5529f183"
+    },
+    {
         title: "Building a Simple Contact Manager API with ASP.NET Core & EF Core",
         date: "May 19, 2025",
         description: "A practical walkthrough of building a lightweight contact management API using ASP.NET Core and Entity Framework Core. This beginner-friendly guide covers CRUD operations, project setup, and essential backend concepts using a modular architecture.",
