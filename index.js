@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
+const getSizeInfo = require('./utils/getSizeInfo');
 const certifications = require('./data/certifications.js');
 const blogsData = require('./data/blogsData.js');
 const projectsData = require('./data/projectsData.js');
@@ -16,6 +17,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json()); // but it's only needed if your API receives JSON in POST/PUT requests.
 
+
 // Base route
 // app.get('/', (req, res) => {
 //     res.send('My Portfolio API is running');
@@ -28,6 +30,9 @@ app.get('/', (req, res) => {
             <li><a href="/certifications">/certifications</a></li>
             <li><a href="/projects">/projects</a></li>
             <li><a href="/blogs">/blogs</a></li>
+            <li><a href="/size/certifications">/size/certifications</a></li>
+            <li><a href="/size/projects">/size/projects</a></li>
+            <li><a href="/size/blogs">/size/blogs</a></li>
         </ul>
     `);
 });
@@ -45,6 +50,21 @@ app.get('/projects', (req, res) => {
 // Blogs route
 app.get('/blogs', (req, res) => {
     res.json(blogsData);
+});
+
+// Size info for certifications
+app.get('/size/certifications', (req, res) => {
+    res.json(getSizeInfo(certifications));
+});
+
+// Size info for projects
+app.get('/size/projects', (req, res) => {
+    res.json(getSizeInfo(projectsData));
+});
+
+// Size info for blogs
+app.get('/size/blogs', (req, res) => {
+    res.json(getSizeInfo(blogsData));
 });
 
 app.listen(port, () => {
