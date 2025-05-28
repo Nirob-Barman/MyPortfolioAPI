@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: 'SQL Intermediate',
+        organization: 'Sololearn',
+        date: 'May 2025',
+        link: 'hhttps://www.sololearn.com/certificates/CC-QDYNT8UT',
+        // image: 'https://drive.google.com/uc?export=view&id=1_E6ztHQv5TXNsB6XHC9WlinevQna15do'
+    },
+    {
         title: 'Introduction to SQL',
         organization: 'Sololearn',
         date: 'May 2025',
