@@ -1,7 +1,7 @@
 const projectsData = [
     {
         name: "Social Canvas",
-        categories: ["React", "Full Stack", "JavaScript", "UI/UX", "Web Design", "Frontend", "API Integration", "Tailwind"],
+        categories: ["React", "Full Stack", "Node.js", "Express", "MongoDB", "JavaScript", "UI/UX", "Web Design", "Frontend", "API Integration", "Tailwind"],
         links: {
             "website": "https://social-canvas-3b50e.web.app/",
             "server": "https://github.com/Nirob-Barman/Social-Canvas/tree/main/SocialCanvas/",
@@ -20,7 +20,7 @@ const projectsData = [
     },
     {
         name: "Grow Green",
-        categories: ["Full Stack", "React", "CSS", "JavaScript", "API Integration", "Tailwind", "Node.js", "Express", "MongoDB"],
+        categories: ["Full Stack", "React", "Node.js", "Express", "MongoDB", "CSS", "JavaScript", "API Integration", "Tailwind", "Node.js", "Express", "MongoDB"],
         links: {
             "website": "https://grow-green-aa1e1.web.app/",
             "server": "https://github.com/Nirob-Barman/Grow-Green/tree/main/Grow-Green-Server/",
@@ -39,7 +39,7 @@ const projectsData = [
     },
     {
         name: "EliteSportsAcademy",
-        categories: ["Full Stack", "React", "CSS", "JavaScript", "API Integration", "UI/UX", "Frontend", "API Integration", "Tailwind", "DaisyUI", "Node.js", "Express", "MongoDB"],
+        categories: ["Full Stack", "React", "Node.js", "Express", "MongoDB", "CSS", "JavaScript", "API Integration", "UI/UX", "Frontend", "API Integration", "Tailwind", "DaisyUI", "Node.js", "Express", "MongoDB"],
         links: {
             "website": "https://summer-camp-school-b1cb7.web.app/",
             "server": "https://github.com/Nirob-Barman/summer-camp-server",
@@ -58,7 +58,7 @@ const projectsData = [
     },
     {
         name: "ToyVerse",
-        categories: ["React", "Full Stack", "JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB"],
+        categories: ["React", "Full Stack", "Node.js", "Express", "MongoDB", "JavaScript", "Bootstrap", "Node.js", "Express", "MongoDB"],
         links: {
             "website": "https://toy-marketplace-5c0d6.firebaseapp.com/",
             "server": "https://github.com/Nirob-Barman/toy-marketplace-server",
@@ -77,7 +77,7 @@ const projectsData = [
     },
     {
         name: "Delicious Seeds",
-        categories: ["React", "Full Stack", "JavaScript", "Web Development", "UI/UX", "Frontend", "Bootstrap", "Node.js", "Express"],
+        categories: ["React", "Full Stack", "Node.js", "Express", "MongoDB", "JavaScript", "Web Development", "UI/UX", "Frontend", "Bootstrap", "Node.js", "Express"],
         links: {
             "website": "https://chef-recipe-hunting-a4314.web.app/",
             "server": "https://github.com/Nirob-Barman/chef-recipe-hunter-server",
