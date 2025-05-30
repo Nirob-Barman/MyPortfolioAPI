@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: 'Web Development',
+        organization: 'Sololearn',
+        date: 'May 2025',
+        link: 'https://www.sololearn.com/certificates/CC-RPZABMLR',
+        // image: 'https://drive.google.com/uc?export=view&id=1_E6ztHQv5TXNsB6XHC9WlinevQna15do'
+    },
+    {
         title: 'SQL Intermediate',
         organization: 'Sololearn',
         date: 'May 2025',
