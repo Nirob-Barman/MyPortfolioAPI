@@ -1,5 +1,18 @@
 const projectsData = [
     {
+        name: "CarShop",
+        categories: ["ASP.NET MVC", "C#", "Entity Framework", "LINQ", "AJAX", "Identity Framework", "Razor View Engine", "JavaScript", "SMTP", "Web Design"],
+        links: {
+            "website": "https://carshop.runasp.net/",
+            "repository": "https://github.com/nirob-barman/carShop/"
+        },
+        features: [
+            "Securely manage user accounts with robust login, registration, and authentication features.",
+            "Easily browse and filter cars by brand, view detailed listings, and explore user comments.",
+            "Seamlessly place, manage, and cancel car orders with real-time stock and order status updates."
+        ]
+    },
+    {
         name: "Social Canvas",
         categories: ["React", "Full Stack", "Node.js", "Express", "MongoDB", "JavaScript", "UI/UX", "Web Design", "Frontend", "API Integration", "Tailwind"],
         links: {
