@@ -1,7 +1,7 @@
 const projectsData = [
     {
         name: "CarShop",
-        categories: ["ASP.NET MVC", "C#", "Entity Framework", "LINQ", "AJAX", "Identity Framework", "Razor View Engine", "JavaScript", "SMTP", "Web Design"],
+        categories: ["ASP.NET MVC", "C#", "Entity Framework", "LINQ", "AJAX", "Identity Framework", "Razor View Engine", "JavaScript", "Bootstrap", "SMTP", "Web Design"],
         links: {
             "website": "https://carshop.runasp.net/",
             "repository": "https://github.com/nirob-barman/carShop/"
@@ -10,6 +10,19 @@ const projectsData = [
             "Securely manage user accounts with robust login, registration, and authentication features.",
             "Easily browse and filter cars by brand, view detailed listings, and explore user comments.",
             "Seamlessly place, manage, and cancel car orders with real-time stock and order status updates."
+        ]
+    },
+    {
+        name: "EliteSportsAcademy",
+        categories: ["ASP.NET MVC", "C#", "Entity Framework", "LINQ", "AJAX", "Identity Framework", "Razor View Engine", "JavaScript", "jQuery", "Bootstrap", "Web Design"],
+        links: {
+            "website": "https://elitesportsacademy.runasp.net/",
+            "repository": "https://github.com/nirob-barman/EliteSportsAcademy/"
+        },
+        features: [
+            "Complete platform with roles for Admin, Instructor, and Student to manage and interact with courses.",
+            "Admin manages course approval, feedback, and empowers instructors administratively.",
+            "Students can easily enroll in classes, view their selected and enrolled courses, and track progress."
         ]
     },
     {
@@ -51,7 +64,7 @@ const projectsData = [
         ]
     },
     {
-        name: "EliteSportsAcademy",
+        name: "Summer Camp School",
         categories: ["Full Stack", "React", "Node.js", "Express", "MongoDB", "CSS", "JavaScript", "API Integration", "UI/UX", "Frontend", "API Integration", "Tailwind", "DaisyUI", "Node.js", "Express", "MongoDB"],
         links: {
             "website": "https://summer-camp-school-b1cb7.web.app/",
