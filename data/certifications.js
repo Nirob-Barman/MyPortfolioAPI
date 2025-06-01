@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: 'SQL Query Optimization for Beginners',
+        organization: 'Simplilearn',
+        date: 'May 2025',
+        link: 'https://simpli-web.app.link/e/MfgFhpNIPTb',
+        // image: 'https://drive.google.com/uc?export=view&id=1_E6ztHQv5TXNsB6XHC9WlinevQna15do'
+    },
+    {
         title: 'Web Development',
         organization: 'Sololearn',
         date: 'May 2025',
