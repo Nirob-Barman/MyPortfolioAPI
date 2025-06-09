@@ -1,5 +1,11 @@
 const blogsData = [
     {
+        title: "স্ট্যাক (Stack) নিয়ে বিস্তারিত — ডেফিনেশন, অপারেশনস এবং উদাহরণ (C ল্যাংগুয়েজ)",
+        date: "June 09, 2025",
+        description: "A simple guide to understanding the stack data structure using the LIFO rule. It explains basic operations like push, pop, top, isEmpty, and size with examples in C.",
+        link: "https://medium.com/@nirob-barman/স্ট্যাক-stack-নিয়ে-বিস্তারিত-ডেফিনেশন-অপারেশনস-এবং-উদাহরণ-c-ল্যাংগুয়েজ-1be69d048682"
+    },
+    {
         title: "How JWT (JSON Web Tokens) Work — Simply Explained",
         date: "May 25, 2025",
         description: "A simple guide to how JWTs work, including their structure, how they help with login, and why they are secure.",
