@@ -1,5 +1,12 @@
 const certifications = [
     {
+        title: 'JavaScript Intermediate',
+        organization: 'Sololearn',
+        date: 'June 2025',
+        link: 'https://www.sololearn.com/certificates/CC-OC5ZJRQF',
+        // image: 'https://drive.google.com/uc?export=view&id=1_E6ztHQv5TXNsB6XHC9WlinevQna15do'
+    },
+    {
         title: 'Introduction to JavaScript',
         organization: 'Sololearn',
         date: 'June 2025',
